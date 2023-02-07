@@ -20,9 +20,10 @@ func main() {
 	b := [5]int{3, 4, 5, 6, 9}
 	fmt.Println("b arr", b, "\nlength of b", len(b))
 
+	k := [3]string{"Rehman", "Ishfaq", "Sheraz"}
+	fmt.Println("k = ", k[1])
 	// Array types are one-dimensional,
 	// but you can compose types to build multi-dimensional data structures.
-
 	var twoD [2][3]int
 
 	for i := 0; i < 2; i++ {
